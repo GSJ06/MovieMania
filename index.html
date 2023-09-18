@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="movie.css" />
+    <script src="movie.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="your-logo.png" alt="Movie App Logo" />
+            <!-- You can replace "your-logo.png" with the actual image path for your logo -->
+        </div>
+        <form id="form">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search"
+                class="search"
+            />
+        </form>
+    </header>
+    <main id="main"></main>
+    <div class="pagination-container">
+        <ul class="pagination">
+            <li class="page-item"><button class="page-link" id="prevPage" href="#" disabled>Previous</button></li>
+            <li class="page-item"><button class="page-link" id="nextPage" href="#">Next</button></li>
+        </ul>
+    </div>
+</body>
+</html>
